@@ -36,17 +36,17 @@ You'll need to define the configurations for your services, deployments, and vol
 
 You'll need to define the configurations for your services, deployments, and volumes in YAML files.
 
-`minikube image load client:latest
-`minikube image load server:latest
+`minikube image load client:latest`
+`minikube image load server:latest`
 
 
 ### Step 5: Apply Kubernetes Configurations
 
 Apply all YAML files to create deployments and services.
 
-`kubectl apply -f mongodb-deployment.yaml 
-`kubectl apply -f redis-deployment.yaml 
-`kubectl apply -f server-deployment.yaml 
+`kubectl apply -f mongodb-deployment.yaml `
+`kubectl apply -f redis-deployment.yaml `
+`kubectl apply -f server-deployment.yaml `
 `kubectl apply -f client-deployment.yaml`
 
 ---
